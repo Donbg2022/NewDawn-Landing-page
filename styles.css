@@ -1,0 +1,108 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.navbar{
+
+}
+header{
+  position: sticky;
+  top: 0;
+  background-color: rgba(230,215,255,.9);
+}
+
+.nav{
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  font-size: medium;
+ 
+  
+}
+/*unvisted link*/
+a:link {
+  color: black;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    text-decoration: none;
+
+  }
+  
+  a:hover {
+    color: black;
+    text-decoration: none;
+
+  }
+  
+  /* selected link */
+  a:active {
+    color: #ffffff;
+    text-decoration: none;
+
+  }
+
+
+
+  /*clearly clean comapny name*/
+  .us{
+    margin: 10px auto 40px auto;
+    text-align: center;
+  }
+  #description{
+    border-bottom: solid 1px grey;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 20px ;
+  }
+
+  /*services and descriptions*/
+.container{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+  .cleaningtypes{
+    max-height: 200px;
+    border: px solid black;
+  }
+  .servicetext{
+
+    min-height: 400px;
+    min-width: 300px;
+    max-width: 300px;
+    
+  }
+  .servicep{
+    background-color: rgb(255, 255, 255);
+    min-height: 200px;
+  }
+.serviceheaders{
+  padding-bottom: 10px;
+}
+/*about section*/
+
+.about{
+  text-align: center;
+  
+}
+#ush2{
+  border-bottom: solid 1px grey;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+#ipsom{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 10px;
+}
