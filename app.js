@@ -1,4 +1,4 @@
-const services = document.querySelector('.container');
+const services = document.querySelector('.allLinks');
 const oneTime = document.querySelector('#onetime');
 const weekly = document.querySelector('#weekly');
 const monthly = document.querySelector('#monthly');
@@ -89,3 +89,4 @@ window.addEventListener('scroll', function(){
 
 //after about add a service list on right side then a text on the right
 //if screen size is smaller then __ make nav bar interactive
+//update colors of animated links
