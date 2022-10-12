@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
     <link href="styles.css" rel="stylesheet">
     <title>Cleary Clean</title>
     
@@ -15,56 +15,123 @@
 <header class="navbar">
     <!--div class nav to use flexbox on nested links-->
     <nav class="nav">
-        <a href=""><h2 class="home">Home</h2></a>
-        <a href=""><h2 class="hours">Hours</h2></a>
-        <a href=""><h2 class="services">Services</h2></a>
-        <a href=""><h2 class="contact">Contact</h2></a>
+        <div class="companylink">
+            <a href="#" id="clearly">Clearly Clean</a>
+        </div>
+        <div class="navlinks">
+            <a href=""><p class="linkid">Home</p></a>
+            <a href=""><p class="linkid">Hours</p></a>
+            <a href=""><p class="linkid">Services</p></a>
+            <a href=""><p class="linkid">Contact</p></a>
+        </div>
+        <div class="contactus">
+            <a href="" id="navbutton">Contact Us</a>
+        </div>
     </nav>
 </header>
 <body>
-    <!--section to the show logo and name of company-->
-    <section>
-        <div class="compname">
-            <h2>Clearly Clean</h2>
-            <h3 id="description">Residential and Commercial cleaning in the lower mainland</h6>
-        </div>
-    </section>
+    <!--main image -->
+    <div class="mainimg">
+        <img id="purpimg"src="stockimg1.jpg" alt="cleaning">
+        <h1 id="h1img" class="imgtext">Cleary Clean</h1>
+        <p id="h3img"class="imgtext">We clean so you dont have to </p>
+        <a href="#"id="learnbutton"><h3>Learn More</h3></a>
+    </div>
 
 
-<div class="allLinks">
-    
-    <a id="onetimelink" href="www.google.com">
+<!--main image end-->
+
+<!--mission statement-->
+
+<div class="mission">
+    <p id="ourmission">Our mission is to</p>
+    <h1 id="statement">Help you save time for the things that matter</h1>
+    <div id="underline"></div>
+</div>
+<!-- end mission statement-->
+
+<!--about us-->
+<section class="about">
+    <img id="aboutimg"src="about.jpg" alt="bucket and mop">
+    <div class="abouttext"> 
+        <p id="aboutHeader">About Us</p>
+        <h2 id="whoweare">Who we are</h2>
+        <p id="ipsom">Lorem ipsum dolor sit aLorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quadfgker htl  bfh i ldfu kuffdvvkjfg uisdlinf irginjrleng ujd b uirbglm jsldk  oelkneifn jdjm  jdb  jj jd s; kdl s l k rjd,js d
+    </div>
+</section>
+    <!--end about us-->
+<!--our services-->
+<section class="ourservices">
+    <div class="servicesheader">
+        <p id="servehead">Our Services</p>
+        <h2 id="whatwedo">What we do</h2>
+        <div id="serviceunderline"></div>
+    </div>
+
+</section>
+
+<!--end our services-->
+
+<section class="allLinks">    
+    <button id="onetimelink">
         <div class="serviceItemContainer"id="onetime">
-            <h3 class="serviceheaders" id="onetimeheader">One Time Clean</h3>
-            <img src="onetime.jpg"  class="cleaningImg" id="firstphoto"alt="">
+            <div class="serviceheaders" >Once</div>
+            <div id="onetimeheader" class="servicedescrip">One time clean</div>
+            <img src="onetimeplaceholder.jpg"  class="cleaningImg" id="firstphoto"alt="">
             <p class="serviceText" id="onetimetext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque saepe unde accusamus quia, deleniti dolor porro nam iure labore error animi maiores eius at, illo blanditiis itaque. Perspiciatis, fugiat eos.</p>
         </div>
-    </a>
-    <a href="www.google.com">
+    </button>
+    <button id="weeklylink">
         <div class="serviceItemContainer" id="weekly">
-            <h3 class="serviceheaders" id="weeklyheader">Weekly Clean</h3>
-            <img src="weekly.jpg" class="cleaningImg" id="secondphoto" alt="" >
+            <div class="serviceheaders">Weekly</div>
+            <div class="servicedescrip" id="weeklyheader">Once a week</div>
+            <img src="weeklyplaceholder.jpg" class="cleaningImg" id="secondphoto" alt="" >
             <p class="serviceText" id="weeklytext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque id ipsum eaque soluta dolorem minus, vel ipsa? In veritatis, ut amet voluptatem dolorem sunt explicabo neque placeat similique asperiores!</p>
         </div>
-    </a>
-    <div class="serviceItemContainer" id="monthly">
-        <h3 class="serviceheaders" id="monthlyheader">Monthly clean</h3>
-        <img src="monthly.jpg" class="cleaningImg" id="thirdphoto" alt="">
-        <p class="serviceText" id="monthlytext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed quae eos illo beatae velit ratione laboriosam, magnam a minus repellat. Nobis animi placeat hic voluptatum? Animi voluptatibus beatae voluptatem?</p>
-    </div>
-    <div class="serviceItemContainer" id="movein">
-        <h3 class="serviceheaders" id="moveinheader">Move-in clean</h3>
-        <img src="movein.jpg" class="cleaningImg" id="fourthphoto" alt="">
-        <p class="serviceText" id="moveintext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore expedita in aperiam magni asperiores minima iure, corrupti porro dolorum. Reprehenderit, repudiandae. Rem consequatur ad assumenda error soluta blanditiis vero fuga.</p>
-    </div>
+    </button>
+    <button id="biweeklylink">
+        <div class="serviceItemContainer" id="biweekly">
+            <div class="serviceheaders">Biweekly</div>
+            <div class="servicedescrip" id="biweeklyheader">Once every two weeks</div>
+            <img src="monthlyplaceholder.jpg" class="cleaningImg" id="thirdphoto" alt="">
+            <p class="serviceText" id="biweeklytext">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum sed quae eos illo beatae velit ratione laboriosam, magnam a minus repellat. Nobis animi placeat hic voluptatum? Animi voluptatibus beatae voluptatem?</p>
+        </div>
+    </button>
+    <button id="monthlylink">
+        <div class="serviceItemContainer" id="monthly">
+            <div class="serviceheaders">Once every month</div>
+            <div class="servicedescrip" id="monthlyheader">Monthly</div>
+            <img src="moveinplaceholder.jpg" class="cleaningImg" id="fourthphoto" alt="">
+            <p class="serviceText" id="monthlytext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore expedita in aperiam magni asperiores minima iure, corrupti porro dolorum. Reprehenderit, repudiandae. Rem consequatur ad assumenda error soluta blanditiis vero fuga.</p>
+        </div>
+    </button>
+</section>
 
+<!--popup-->
+<div class="popup">
+    <form class="form">
+        <h1 id="freequote">Get a free quote today!</h1>
+        <h3 id="popupdescription">Just enter some basic information and we'll get back to you within 24 hours!</h3>
+        <label class="quotelabels" id="email">Email</label>
+            <input id="emailinput" type="email">
+        <label class="quotelabels" id="bedrooms">Bedrooms</label>
+          <input id="roomnum" type="number">
+        <label class="quotelabels" id="bathrooms">Bathrooms</label>
+          <input id="" type="number">
+        <label class="quotelabels" id="Frequency">Frequency</label>
+        <div class="howoften">
+            <button id="onetimebutton" class="often">One-Time</button>
+            <button id="" class="often">Weekly</button>
+            <button id="" class="often">Monthly</button>
+            <button id="" class="often">Other</button>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
 </div>
 
+
 <!--about us page detailing years in operation-->
-<section class="about">
-<h2 id="aboutHeader">About Us</h2>
-<p id="ipsom">Lorem ipsum dolor sit aLorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quaerat architecto quas maiores sunt assumenda molestiae velit, consequuntur voluptates? Expedita, neque.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quaerat architecto quas maiores sunt assumenda molestiae velit, consequuntur voluptates? Expedita, neque.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quaerat architecto quas maiores sunt assumenda molestiae velit, consequuntur voluptates? Expedita, neque.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quaerat architecto quas maiores sunt assumenda molestiae velit, consequuntur voluptates? Expedita, neque.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quaerat architecto quas maiores sunt assumenda molestiae velit, consequuntur voluptates? Expedita, neque.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quaerat architecto quas maiores sunt assumenda molestiae velit, consequuntur voluptates? Expedita, neque.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quaerat architecto quas maiores sunt assumenda molestiae velit, consequuntur voluptates? Expedita, neque.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia suscipit ratione amet qui error dolorem vitae facilis aliquid quaerat architecto quas maiores sunt assumenda molestiae velit, consequuntur voluptates? Expedita, neque.met, consectetur adipisicing elit. Recusandae, voluptatem? Itaque officia labore recusandae numquam tempore ea sequi repellendus voluptas est rem temporibus atque, libero, odio possimus! Aut, quos sequi!</p>
-</section>
+
 <!--footer with information-->
 <footer>
 
