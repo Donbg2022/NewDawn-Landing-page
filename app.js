@@ -16,7 +16,6 @@ const weeklyHeader = document.querySelector('#weeklyheader')
 const monthlyHeader = document.querySelector('#biweeklyheader')
 const moveInHeader = document.querySelector('#monthlyheader')
 
-
 //one time clean animation
 oneTime.addEventListener('mouseover', function(){
   oneTime.style.backgroundColor = 'rgba(230,215,255,.3)'
@@ -74,7 +73,38 @@ moveIn.addEventListener('mouseout', function(){
 })
 
 //redirects to quote form
+const oneTimeBtn = document.querySelector('#onetimelink')
+const weeklyBtn = document.querySelector('#weeklylink')
+const biweeklyBtn = document.querySelector('#biweeklylink')
+const monthlyBtn = document.querySelector('#monthlylink')
+
+oneTimeBtn.addEventListener('click', function(){
+  location.href = "oneTime.html"
+})
+weekly.addEventListener('click', function(){
+  location.href = "oneTime.html"
+})
+biweeklyBtn.addEventListener('click', function(){
+  location.href = "oneTime.html"
+})
+monthlyBtn.addEventListener('click', function(){
+  location.href = "oneTime.html"
+})
+
+
+//responsive burger display
+const burger = document.querySelector('#burger')
+const linkId = document.querySelector('.mobilelinkid')
+const responsiveNav = document.querySelector('.responsivenav')
+burger.addEventListener('click', function(e){
+  if(getComputedStyle(responsiveNav).display === 'none'){
+  responsiveNav.style.display = 'block'
+}else{
+  responsiveNav.style.display = 'none'
+}
+})
 //after about add a service list on right side then a text on the right
 //if screen size is smaller then __ make nav bar interactive
 //update colors of animated links
 //try and see if you can chain multiple elments one on addevent listener
+//after submitting new page loads sayong thx g

@@ -1,5 +1,6 @@
 
 *{
+  box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Open Sans', sans-serif;
@@ -34,6 +35,38 @@
 #navbutton{
   color: white;
 }
+/*mobile stuff*/
+#burger{
+  display: none;
+  font-size: x-large;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.mobilelinkid{
+  padding: 5px;
+  color: grey;
+  display: inline-block;
+ 
+}
+.responsivenav{
+  text-align: center;
+  display: none;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 800px){
+  #burger{
+    display: block;
+  }
+  .contactus, .navlinks{
+    display: none;
+  }
+  #h1img{
+    font-size: large;
+  }
+}
+/*end responsive navbar*/
 /*end navbar styling*/
 
   /*clearly clean main img and learnmore button*/
@@ -47,7 +80,7 @@
   }
   #learnbutton{
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 15px;
@@ -61,11 +94,25 @@
     transform: translate(-50%, -50%);
   }
   #h1img{
-    top: 30%
+    top: 30%;
+    font-size: xx-large;
+    font-weight: 800;
   }
   #h3img{
     top: 40%;
+
   }
+  
+ @media all and (max-width: 800px){
+    #h1img{
+      top: 25%;
+      padding-bottom: 10px;
+    }
+    #learnbutton{
+      top: 60%;
+      padding: 5px;
+    }
+  } 
   /*clearly clean main img and learnmore button*/
 
   /*mission statement*/
@@ -88,9 +135,11 @@
 /*about us*/
 .about{
   display: flex;
+  
 }
 .abouttext{
   margin-left: 5%;
+  flex-wrap: wrap;
 }
 #aboutimg{
 display: inline-block;
@@ -107,6 +156,11 @@ margin-left: 5%;
 #ipsom{
   max-width: 40%;
  
+}
+@media all and (max-width: 800px){
+  #aboutimg{
+    max-height: 350px;
+  }
 }
 /*end about us*/
 /*our services*/ 
@@ -172,43 +226,7 @@ button{
 
  /*end ervices descriptions links*/
 /* popup*/
-.popup{
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 1px solid black;
-  border-radius: 5px;
-  z-index: 10;
-  background-color: white;
-  width: 800px;
-  max-width: 80%;
-  display: none;
-}
-#freequote{
-  padding-bottom: 40px;
-  padding-top: 10px;
-}
-.form{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 20px;
 
-}
-.often{
-  border: 1px solid black;
-  padding: 3px;
-  border-radius: 5px;
-}
-
-.quotelabels{
-  padding-bottom: 5px;
-  padding-top: 15px;
-}
-#onetimebutton{
-  margin-top: 10px;
-}
 /*about section*//*unvisted link*/
 a:link {
   color: black;
@@ -233,6 +251,129 @@ a:link {
 
 /*end of service description links*/
 
-/*about section header*/
+/*form header*/
+.categories{
+  text-align: center;
+  color: grey;
+}
+.categoriesbold{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 500;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid grey;
+  margin: 0 30% 2% 30%;
+}
+/*end form header*/
 
-/*end of about section*/
+/*form styles*/
+.onetimelabels{
+  font-size: large;
+}
+
+section.quote div{
+  margin: 45px 0;
+  display: flex;
+  justify-content: center;
+}
+.line{
+  flex-direction: column;
+}
+.inputitems{
+border: 1px solid grey;
+height: 28px;
+border-radius: 5px;
+
+}
+.linecontainer{
+}
+form.quoteform button{
+ background-color: #32064a;
+ color: white;
+ font-size: larger;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ padding: 15px 20px 15px 20px;
+ margin-bottom: 50px;
+}
+
+
+#address, #bedrooms, #name{
+  margin-right: 50px;
+}
+#dropdown{
+  flex-direction: column;
+  align-items: center;
+}
+#int{
+  width: 17%;
+  border-radius: 5px; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  height: 28px;
+}
+/*end form styles*/
+
+/*contact Header*/
+
+.contact{
+  text-align: center;
+  margin-top: 5%;
+}
+#contactsml{
+  padding-bottom: 30px;
+  color: grey;
+}
+#contactlrg{
+  margin-bottom: 5%;
+  font-size: x-large;
+  font-weight: 700;
+}
+#contactunderline{
+  border-bottom: 1px solid #D3D3D3;
+  margin: 0 20% 100px 20%;
+}
+/*end contact Header*/
+.contactcontent{
+  display: flex;
+  margin-bottom: 300px;
+  flex-wrap: wrap;
+}
+#contactimg{
+  margin-left: 200px;
+  width: 600px;
+  
+}
+.flexcontainer{
+  flex-direction: column;
+  margin-left: 200px;
+}
+#contactus{
+  font-size: medium;
+  color: grey;
+  margin-top: 40px;
+  
+}
+#ourinfo{
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+section.contactcontent p{
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.pdescrip{
+  color: grey;
+  
+}
+@media all and (max-width: 800px){
+  #contactimg{
+    margin-left: 50px;
+  }
+}
+/*footer*/
+
+/*end footer*/
