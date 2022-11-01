@@ -54,15 +54,19 @@
 <!--creates a new quote form section-->
 <section class="quote">
     <!--creates new form and adds company name and contacts-->
-    <form id="contactform" class="quoteform" action="" method="POST">
-        <h3 id="quotelabel">Quote</h3>
-        <div class="linecontainer">
+    <h1 id="quotelabel">Clearly Clean Quote</h1>
+
+    <div class="wrapper">
+
         <div id="compInfo">
-            <p>Clearly Clean</p>
+            <h3>Clearly Clean</h3>
             <p>604-910-1463</p>
             <p>clearam@live.ca</p>
         </div>
+        <div class="contact">
+        <form id="contactform" class="quoteform" action="" method="POST">
         <!--interval cleaning dropdown menu-->
+        
              <p id="dropdown">
                 <label id="intlabel" for="int">Cleaning intervals</label>
                 <select name="Scheduled-interval" id="int">
@@ -73,34 +77,41 @@
                 </select>
             </p>
         <!--the rest of the form with name email address city bedrooms and washrooms-->
-            <p class="line">
+            <p>
                 <label  for="name" class="onetimelabels">Name</label>
                 <input name="name"id="name"class="inputitems" type="name">
             </p>
-            <p class="line">
+            <p>
                 <label for="email" class="onetimelabels">Email</label>
                 <input name="email" id="email" class="inputitems" type="email">
             </p>
-            <p class="line">
+            <p>
                 <label for="address" class="onetimelabels">Address</label>
                 <input name="address" id="address" class="inputitems" type="address">
             </p>
-            <p class="line">
+            <p>
+                <label for="province" class="onetimelabels">Province</label>
+                <input name="province" id="province" class="inputitems" type="province">
+            </p>
+            <p>
                 <label for="city"class="onetimelabels">City</label>
                 <input name="city" id="city" class="inputitems" type="city">
             </p>
-            <p class="line">
-                <label for="bedrooms"class="onetimelabels">Number of bedrooms</label>
-                <input name="bedrooms" id="bedrooms" class="inputitems" type="number">
+            <p>
+                <label for="bedrooms"class="onetimelabels">Bedrooms</label>
+                <input name="bedrooms" id="bedrooms" class="inputitems" type="number" min="0">
             </p>
-            <p class="line">
-                <label for="washrooms"class="onetimelabels">Number of washrooms</label>
-                <input name="washrooms" id="washrooms" class="inputitems" type="number">
+            <p>
+                <label for="washrooms"class="onetimelabels">Washrooms</label>
+                <input name="washrooms" id="washrooms" class="inputitems" type="number" min="0">
             </p>
         <!--submit button which is manipulated by JS to route info to firebase-->
-        <button id="submit" type="submit">Submit</button>
-    </div>
+            <p class="full">
+                <button id="submitbtn" type="submit">Submit</button>
+            </p>
     </form>
+</div>
+</div>
 <!--end form-->
 </section>
 <footer>
