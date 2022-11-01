@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">  
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link href="styles.css" rel="stylesheet">
+    <title>One Time Clean</title>
+    
+</head>
+
+    <header class="navbar">
+        <!--div class nav to use flexbox on nested links-->
+        <nav class="nav">
+            <div class="companylink">
+                <a href="index.html" id="clearly">Clearly Clean</a>
+            </div>
+            <div class="navlinks">
+                <a href="index.html"><p class="linkid">Home</p></a>
+                <a href="index.html#ourservicesid"><p class="linkid">Services</p></a>
+                <a href="index.html#contactlink"><p class="linkid">Contact</p></a>
+            </div>
+            <div class="contactus">
+                <a href="index.html#contactlink" id="navbutton">Contact Us</a>
+            </div>
+            <div id="burger">
+                <i  class="fi fi-rr-menu-burger"></i>
+            </div>
+        </nav>
+    <!--html to create a minimal nav bar when page is shrunk-->
+        <div class="responsivenav">
+            <a href="index.html"><p class="mobilelinkid">Home</p></a>
+            <a href=""><p class="mobilelinkid">Hours</p></a>
+            <a href="#ourservicesid"><p class="mobilelinkid" >Services</p></a>
+            <a href="#contactlink"><p class="mobilelinkid">Contact</p></a>
+        </div>
+    </header> 
+
+<body>
+<!--form-->
+<div class="quoteformheader">
+    <p class="categories">Information</p>
+    <p class="categoriesbold">What we need for an inquiry</p>
+</div>
+<!--thank you message when form is submitted-->
+<div id="thanks">
+    <p>Thank you for your inquiry! We will send a quote to your email within 24 hours!</p>
+</div>
+
+<!--creates a new quote form section-->
+<section class="quote">
+    <!--creates new form and adds company name and contacts-->
+    <form id="contactform" class="quoteform" action="" method="POST">
+        <h3 id="quotelabel">Quote</h3>
+        <div class="linecontainer">
+        <div id="compInfo">
+            <p>Clearly Clean</p>
+            <p>604-910-1463</p>
+            <p>clearam@live.ca</p>
+        </div>
+        <!--interval cleaning dropdown menu-->
+             <p id="dropdown">
+                <label id="intlabel" for="int">Cleaning intervals</label>
+                <select name="Scheduled-interval" id="int">
+                    <option>One-time</option>
+                    <option>Weekly</option>
+                    <option>Bi-weekly</option>
+                    <option>Monthly</option>
+                </select>
+            </p>
+        <!--the rest of the form with name email address city bedrooms and washrooms-->
+            <p class="line">
+                <label  for="name" class="onetimelabels">Name</label>
+                <input name="name"id="name"class="inputitems" type="name">
+            </p>
+            <p class="line">
+                <label for="email" class="onetimelabels">Email</label>
+                <input name="email" id="email" class="inputitems" type="email">
+            </p>
+            <p class="line">
+                <label for="address" class="onetimelabels">Address</label>
+                <input name="address" id="address" class="inputitems" type="address">
+            </p>
+            <p class="line">
+                <label for="city"class="onetimelabels">City</label>
+                <input name="city" id="city" class="inputitems" type="city">
+            </p>
+            <p class="line">
+                <label for="bedrooms"class="onetimelabels">Number of bedrooms</label>
+                <input name="bedrooms" id="bedrooms" class="inputitems" type="number">
+            </p>
+            <p class="line">
+                <label for="washrooms"class="onetimelabels">Number of washrooms</label>
+                <input name="washrooms" id="washrooms" class="inputitems" type="number">
+            </p>
+        <!--submit button which is manipulated by JS to route info to firebase-->
+        <button id="submit" type="submit">Submit</button>
+    </div>
+    </form>
+<!--end form-->
+</section>
+<footer>
+    <div class="footer">
+        <div class="title">Company</div>
+        <ul>
+            <li>Home</li>
+            <li>About us</li>
+            <li>Contact us</li>
+            <li>What we do</li>
+        </ul>
+    </div>
+    
+    <div class="footer">
+        <div class="title">Services</div>
+        <ul id="companyfooter">
+            <li>One-time clean</li>
+            <li>Weekly clean</li>
+            <li>Biweekly clean</li>
+            <li>Monthly clean</li>
+        </ul>
+    
+    
+</footer>
+<script src="./dist/bundle.js"></script>
+<script src="./src/app2.js"></script>
+</body>
+</html>
