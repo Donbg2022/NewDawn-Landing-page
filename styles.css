@@ -71,6 +71,11 @@
 /*end responsive navbar*/
 /*end navbar styling*/
 
+
+
+
+
+
   /*clearly clean main img and learnmore button*/
   .mainimg{
     text-align: center;
@@ -130,8 +135,13 @@
     max-width: 45%;
   }
 }
-  /*clearly clean main img and learnmore button*/
+  /*end clearly clean main img and learnmore button*/
 
+
+
+
+
+  
   /*mission statement*/
   .mission{
     text-align: center;
@@ -150,6 +160,11 @@
     margin: 0 20% 0 20%;
   }
 /*end mission statement*/
+
+
+
+
+
 /*about us*/
 .about{
   display: flex;
@@ -187,6 +202,11 @@ margin-left: 5%;
   }
 }
 /*end about us*/
+
+
+
+
+
 /*our services*/ 
 .ourservices{
   text-align: center;
@@ -205,6 +225,11 @@ margin-left: 5%;
   margin: 0 20% 100px 20%;
 }
 /*end our services*/ 
+
+
+
+
+
 
   /*services descriptions links*/
   .allLinks{
@@ -250,7 +275,12 @@ button{
 }
 
  /*end ervices descriptions links*/
-/* popup*/
+
+
+
+
+
+
 
 /*about section*//*unvisted link*/
 a:link {
@@ -276,6 +306,11 @@ a:link {
 
 /*end of service description links*/
 
+
+
+
+
+
 /*form header*/
 .categories{
   text-align: center;
@@ -291,6 +326,11 @@ a:link {
   margin: 0 30% 2% 30%;
 }
 /*end form header*/
+
+
+
+
+
 /*contact Header*/
 
 .contact{
@@ -358,6 +398,11 @@ section.contactcontent p{
     }
   
 }
+
+
+
+
+
 /*thank you message after submitting form*/
 #thanks{
   text-align: center;
@@ -368,6 +413,11 @@ section.contactcontent p{
   display: none;
   margin-bottom: 10px;
 }
+
+
+
+
+
 /*form styles*/
 .quote{
   color: black;
@@ -395,6 +445,11 @@ section.contactcontent p{
 }
 
 /*end form styles*/
+
+
+
+
+
 /*footer*/
 
 footer{
