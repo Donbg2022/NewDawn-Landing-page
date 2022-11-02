@@ -31,6 +31,7 @@ submitted.addEventListener("submit", async (e) => {
   let name = getInputValue('name')
   let email = getInputValue('email')
   let address = getInputValue('address')
+  let province = getInputValue('province')
   let city = getInputValue('city')
   let bedrooms = getInputValue('bedrooms')
   let washrooms = getInputValue('washrooms')
@@ -51,9 +52,10 @@ submitted.addEventListener("submit", async (e) => {
   //creating firebase form values
 try {
   const docRef = await addDoc(collection(db, "users"), {
-   Name: name,
+    Name: name,
     Email: email,
     Address: address,
+    Province: province,
     City: city,
     Bedrooms: bedrooms,
     Washrooms: washrooms,
