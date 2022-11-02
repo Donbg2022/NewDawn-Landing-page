@@ -82,7 +82,9 @@
 
 
 
-
+body{
+  min-height: 100vh;
+}
   /*clearly clean main img and learnmore button*/
   .mainimg{
     text-align: center;
@@ -432,14 +434,13 @@ section.contactcontent p{
   background-color:#4a087191;
   line-height: 1.6;
   padding: 1em;
+  margin-bottom: 5em;
 }
 #contactform{
-  max-width: 1170px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   padding: 1em;
-  
-  
 }
 #quotelabel{
   text-align: center;
@@ -527,7 +528,7 @@ padding-top: 1rem;
 footer{
   text-align: center;
   background-color: rgba(128, 128, 128, 0.117);
-  
+  position: relative;
   
 }
 .footer{
