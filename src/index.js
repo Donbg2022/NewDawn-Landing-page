@@ -36,6 +36,8 @@ submitted.addEventListener("submit", async (e) => {
   let bedrooms = getInputValue('bedrooms')
   let washrooms = getInputValue('washrooms')
   let interval = getInputValue('int')
+  let input = document.querySelector('.inputitems')
+
 
 
   //show alert and bring view to it
