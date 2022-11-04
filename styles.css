@@ -513,6 +513,7 @@ padding-top: 1rem;
   .wrapper{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    box-shadow:none;
   }
   #compInfo, #quotelabel {
     text-align: left;
