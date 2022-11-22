@@ -553,3 +553,29 @@ ul {
 }
 
 /*end footer*/
+
+
+/* success page */
+
+#successdiv{
+  margin: 10em auto 0 auto;
+  width: 30%;
+  background-color: rgb(224, 204, 225);
+}
+#successdiv h1{
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: .5em;
+
+}
+#successdiv p{
+  padding-bottom: 2em;
+  text-align: center;
+}
+#successdiv a{
+  color: rgb(141, 131, 140);
+  text-align: center;  
+}
+#successdiv a:hover{
+  color: #32064a;
+}
