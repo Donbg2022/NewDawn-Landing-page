@@ -132,27 +132,27 @@
         <p id="email">Clearam@live.ca</p> -->
         <p id="phoneheader"class="pdescrip" >Phone</p>
         <p id="phone">(604) 910-1463</p>
-        <form action="https://formsubmit.co/7477a97ef46d32a352669df59e17b18f" method="POST">
+        <form class="homepage-form"action="https://formsubmit.co/7477a97ef46d32a352669df59e17b18f" method="POST">
 
             <input type="hidden" name="_next" value="http://127.0.0.1:5501/success.html">
 
-            <div>
-                <label for="contactName">Name:</label>
-                <input id="contactName" type="name" name="Name">
+            <div class="field-holder">
+                <label for="contactName"></label>
+                <input id="contactName" type="name" name="Name" placeholder="Name">
             </div>
-            <div>
-                <label for="contactEmail">Email:</label>
-                <input id="contactEmail" type="email" name="Email">
+            <div class="field-holder">
+                <label for="contactEmail"></label>
+                <input id="contactEmail" type="email" name="Email" placeholder="Email">
             </div>
-            <div>
-                <label for="contactPhone">Phone Number:</label>
-                <input id="contactPhone"type="phonenumber" Name="Phone">
+            <div class="field-holder">
+                <label for="contactPhone"></label>
+                <input id="contactPhone"type="phonenumber" Name="Phone" placeholder="Phone">
             </div>
-            <div>
-                <label for="contactText">Questions, comments</label>
-                <textarea id="contactText" type="text" name="comments"></textarea>
+            <div class="field-holder">
+                <label for="contactText"></label>
+                <textarea id="contactText" type="text" name="comments" placeholder="Questions, comments"></textarea>
             </div>
-            <button type="submit">submit</button>
+            <button id="contactusBtn" type="submit">submit</button>
         </form>
     </div>
 </section>

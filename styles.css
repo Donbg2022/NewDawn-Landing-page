@@ -458,9 +458,9 @@ section.contactcontent p{
   text-align: center;
 }
 #compInfo h3{
-margin-bottom: 1rem;
-font-size: large;
-padding-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: large;
+  padding-top: 1rem;
 }
 .wrapper{
   box-shadow: 0 0 20px 0 rgb(141, 131, 140);
@@ -468,9 +468,37 @@ padding-top: 1rem;
 }
 /*end form styles*/
 
+/* contact us form styles */
+.homepage-form{
+  margin-top: 2em;
+}
+.field-holder{
+  position: relative;
+  margin-bottom: 1.25em;
+}
+.homepage-form input{
+  border: 0;
+  border-bottom: 1px solid rgb(224, 204, 225);
+  outline: none;
+}
+.homepage-form input::placeholder{
+  font-size: medium;
+}
+#contactusBtn{
+  background-color: #32064a;
+  padding: .5rem 2em .5em 2em;
+  border: none;
+  color: white;
+  font-size: medium;
+}
+#contactusBtn:active{
+  background-color: rgb(141, 131, 140);
+}
+#contactusBtn:hover{
+  background-color: rgb(89, 26, 84);
+}
 
-
-
+/* contact us form end */
 
 /*input styling*/
 .quote form{
