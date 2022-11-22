@@ -528,7 +528,7 @@ padding-top: 1rem;
 
 footer{
   text-align: center;
-  background-color: rgba(128, 128, 128, 0.117);
+  background-color: rgb(189, 149, 195);
   position: relative;
   
 }
@@ -536,20 +536,20 @@ footer{
   display: inline-block;
 }
 
-.title{
-  font-weight: 600;
-  font-size: small;
-  margin-top: 5px;
-  
-}
 
 ul {
   text-decoration: none;
   list-style: none;
   margin-bottom: 20px;
+  margin-top: 1em;
   font-size: smaller;
   padding-left: 20px;
   padding-right: 20px;
+  
+}
+
+.footerlist{
+  color: lightgray;
 }
 
 /*end footer*/
