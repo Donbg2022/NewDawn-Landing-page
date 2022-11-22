@@ -268,7 +268,7 @@ margin-left: 5%;
     padding-bottom: 10px;
 }
 .servicebtn{
-  border: 1px solid black;
+  border: none;
   background-color: white;
   
 }
@@ -431,7 +431,6 @@ section.contactcontent p{
 
 .quote{
   color: black;
-  background-color:#4a087191;
   line-height: 1.6;
   padding: 1em;
   margin-bottom: 5em;
@@ -556,7 +555,7 @@ section.contactcontent p{
 
 footer{
   text-align: center;
-  background-color: rgb(189, 149, 195);
+  background-color: #32064a;
   position: relative;
   
 }
