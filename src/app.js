@@ -104,10 +104,3 @@ window.addEventListener('resize', (e) => {
 })
 
 //this will add a redirect to the submit button after the forms are submitted
-
-
-//after about add a service list on right side then a text on the right
-//if screen size is smaller then __ make nav bar interactive
-//update colors of animated links
-//try and see if you can chain multiple elments one on addevent listener
-//after submitting new page loads sayong thx g
