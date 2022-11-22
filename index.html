@@ -128,10 +128,32 @@
     <div class="flexcontainer">
         <div id="contactus">Contact us</div>
         <div id="ourinfo">Our information</div>
-        <p id="emailheader" class="pdescrip">Email</p>
-        <p id="email">Clearam@live.ca</p>
+        <!-- <p id="emailheader" class="pdescrip">Email</p>
+        <p id="email">Clearam@live.ca</p> -->
         <p id="phoneheader"class="pdescrip" >Phone</p>
         <p id="phone">(604) 910-1463</p>
+        <form action="https://formsubmit.co/7477a97ef46d32a352669df59e17b18f" method="POST">
+
+            <input type="hidden" name="_next" value="http://127.0.0.1:5501/">
+
+            <div>
+                <label for="contactName">Name:</label>
+                <input id="contactName" type="name" name="Name">
+            </div>
+            <div>
+                <label for="contactEmail">Email:</label>
+                <input id="contactEmail" type="email" name="Email">
+            </div>
+            <div>
+                <label for="contactPhone">Phone Number:</label>
+                <input id="contactPhone"type="phonenumber" Name="Phone">
+            </div>
+            <div>
+                <label for="contactText">Questions, comments</label>
+                <textarea id="contactText" type="text" name="comments"></textarea>
+            </div>
+            <button type="submit">submit</button>
+        </form>
     </div>
 </section>
 <!--footer with information-->
