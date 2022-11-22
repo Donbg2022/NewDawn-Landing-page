@@ -78,3 +78,30 @@ function getInputValue(id){
 let scrollTop = function() {
   window.scrollTo(0, 0);
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

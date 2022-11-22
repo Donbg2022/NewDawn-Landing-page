@@ -74,23 +74,11 @@ moveIn.addEventListener('mouseout', function(){
 })
 
 //redirects to quote form
-const oneTimeBtn = document.querySelector('#onetimelink')
-const weeklyBtn = document.querySelector('#weeklylink')
-const biweeklyBtn = document.querySelector('#biweeklylink')
-const monthlyBtn = document.querySelector('#monthlylink')
+const servicebtn = document.querySelector('.servicebtn')
+servicebtn.addEventListener('click', () => {
+  location.href = "oneTime.html"
+})
 
-oneTimeBtn.addEventListener('click', function(){
-  location.href = "oneTime.html"
-})
-weekly.addEventListener('click', function(){
-  location.href = "oneTime.html"
-})
-biweeklyBtn.addEventListener('click', function(){
-  location.href = "oneTime.html"
-})
-monthlyBtn.addEventListener('click', function(){
-  location.href = "oneTime.html"
-})
 
 
 //responsive burger display
