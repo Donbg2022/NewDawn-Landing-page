@@ -74,10 +74,13 @@ moveIn.addEventListener('mouseout', function(){
 })
 
 //redirects to quote form
-const servicebtn = document.querySelector('.servicebtn')
-servicebtn.addEventListener('click', () => {
+const servicebtn = document.querySelectorAll('.servicebtn')
+for (let i = 0; i < servicebtn.length; i++) {
+  servicebtn[i].addEventListener('click', () => {
   location.href = "oneTime.html"
 })
+}
+
 
 
 
