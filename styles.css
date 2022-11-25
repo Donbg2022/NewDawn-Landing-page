@@ -408,9 +408,11 @@ section.contactcontent p{
   color: grey;
   
 }
-@media all and (max-width: 800px){
+@media all and (max-width: 1000px){
   #contactimg{
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 475px){
