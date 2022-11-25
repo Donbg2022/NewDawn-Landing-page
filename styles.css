@@ -62,7 +62,7 @@
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 820px){
   #burger{
     display: block;
   }
@@ -120,15 +120,26 @@ body{
     top: 40%;
 
   }
-  
+  @media all and (max-width: 900px){
+    #learnbutton{
+      padding: 9px;
+      top: 65%;
+    }
+    #h3img{
+      top: 45%
+    }
+  }
  @media all and (max-width: 800px){
     #h1img{
       top: 25%;
       padding-bottom: 10px;
     }
     #learnbutton{
-      top: 60%;
+      top: 70%;
       padding: 5px;
+    }
+    #h3img{
+      top: 45%;
     }
   } 
   @media screen and (max-width: 475px){
@@ -198,7 +209,11 @@ margin-left: 5%;
   max-width: 70%;
  
 }
-@media all and (max-width: 799px){
+#weAreLink{
+  text-decoration: underline;
+  color: rgb(89, 26, 84);
+}
+@media all and (max-width: 1000px){
   #aboutimg{
     max-height: 350px;
   }
