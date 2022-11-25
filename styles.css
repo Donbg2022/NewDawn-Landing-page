@@ -417,31 +417,14 @@ section.contactcontent p{
 }
 @media screen and (max-width: 475px){
   #contactimg{
-    margin-left: 0;
+    min-width: 300px;
     }
-    *{
-      text-align: center;
+    .flexcontainer{
+      margin-left: auto;
+      margin-right: auto;
     }
   
 }
-
-
-
-
-
-/*thank you message after submitting form*/
-#thanks{
-  text-align: center;
-  background-color: rgba(127, 209, 127, 0.505);
-  padding: 30px;
-  margin-left: 23%;
-  margin-right: 23%;
-  display: none;
-  margin-bottom: 10px;
-}
-
-
-
 
 
 /*form styles*/
@@ -461,6 +444,7 @@ section.contactcontent p{
 #quotelabel{
   text-align: center;
   margin-bottom: 1.5rem;
+  font-weight: 400;
 }
 
 .formpage > *{
@@ -477,6 +461,7 @@ section.contactcontent p{
   margin-bottom: 1rem;
   font-size: large;
   padding-top: 1rem;
+  font-weight: 400;
 }
 .wrapper{
   box-shadow: 0 0 20px 0 rgb(141, 131, 140);
