@@ -207,6 +207,7 @@ margin-left: 5%;
 }
 #ipsom{
   max-width: 70%;
+  
  
 }
 #weAreLink{
@@ -223,6 +224,8 @@ margin-left: 5%;
   }
   #ipsom{
     max-width: 100%;
+    margin-left: 2em;
+  margin-right: 2em;
   }
 }
 /*end about us*/
