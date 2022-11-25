@@ -475,6 +475,13 @@ section.contactcontent p{
 /*end form styles*/
 
 /* contact us form styles */
+.estimate-p{
+  padding-top: 1rem;
+  text-decoration: underline;
+}
+.estimate-p:hover{
+  color: #32064a;
+}
 .homepage-form{
   margin-top: 2em;
 }
@@ -507,6 +514,9 @@ section.contactcontent p{
 /* contact us form end */
 
 /*input styling*/
+#compinfo{
+  max-width: 50%
+}
 .quote form{
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -590,10 +600,11 @@ ul {
 
 
 /* success page */
-
+.success-body{
+  background-color: #D3D3D3;
+}
 #successdiv{
   margin: 10em auto 0 auto;
-  width: 30%;
   background-color: rgb(224, 204, 225);
 }
 #successdiv h1{
