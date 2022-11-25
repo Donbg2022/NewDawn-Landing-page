@@ -136,7 +136,7 @@ body{
     }
     #learnbutton{
       top: 70%;
-      padding: 5px;
+      padding: 8px;
     }
     #h3img{
       top: 45%;
@@ -213,7 +213,7 @@ margin-left: 5%;
   text-decoration: underline;
   color: rgb(89, 26, 84);
 }
-@media all and (max-width: 1000px){
+@media all and (max-width: 900px){
   #aboutimg{
     max-height: 350px;
   }
