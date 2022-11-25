@@ -602,10 +602,15 @@ ul {
 /* success page */
 .success-body{
   background-color: #D3D3D3;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 #successdiv{
   margin: 10em auto 0 auto;
-  background-color: rgb(224, 204, 225);
+  background-color: rgb(169, 126, 171);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(53, 25, 55);
 }
 #successdiv h1{
   text-align: center;
@@ -618,8 +623,10 @@ ul {
   text-align: center;
 }
 #successdiv a{
-  color: rgb(141, 131, 140);
+  color: rgb(8, 1, 7);
   text-align: center;  
+  font-size: medium;
+  text-decoration: underline;
 }
 #successdiv a:hover{
   color: #32064a;
