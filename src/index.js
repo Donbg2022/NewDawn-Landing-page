@@ -103,4 +103,14 @@ window.addEventListener('resize', (e) => {
 }
 })
 
-//this will add a redirect to the submit button after the forms are submitted
+const newDawnMainText = document.querySelector('.imgtext')
+window.addEventListener('resize', () => {
+  if(window.innerWidth < 612){
+    newDawnMainText.innerText = 'New Dawn'
+}else{
+  newDawnMainText.innerText = 'New Dawn Cleaning'
+
+}
+
+}
+)

@@ -120,7 +120,7 @@ body{
     top: 40%;
 
   }
-  @media all and (max-width: 900px){
+  @media all and (max-width: 1300px){
     #learnbutton{
       padding: 9px;
       top: 65%;
