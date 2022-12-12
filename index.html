@@ -185,6 +185,25 @@
         </ul>
     
 </footer>
+<script type="module">
+
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
+
+    const firebaseConfig = {
+      apiKey: "AIzaSyCV9LzgxVmqdtAyGB2_vZ7sDwKomBK8Pn4",
+      authDomain: "the-new-dawn-cleaning-company.firebaseapp.com",
+      projectId: "the-new-dawn-cleaning-company",
+      storageBucket: "the-new-dawn-cleaning-company.appspot.com",
+      messagingSenderId: "873180475350",
+      appId: "1:873180475350:web:3c4b968bc101b172467e77",
+      measurementId: "G-H5TMT1R7W2"
+    };
+  
+
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 <script src="./src/index.js"></script>
 </body>
 </html>
