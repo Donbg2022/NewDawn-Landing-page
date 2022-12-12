@@ -198,6 +198,7 @@ body{
 display: inline-block;
 width: 60%;
 max-width: 950px;
+max-height: 500px;
 margin-left: 5%;
 }
 #aboutHeader{
@@ -207,14 +208,12 @@ margin-left: 5%;
 }
 #ipsom{
   max-width: 70%;
-  
- 
 }
 #weAreLink{
   text-decoration: underline;
   color: rgb(89, 26, 84);
 }
-@media all and (max-width: 900px){
+@media all and (max-width: 1000px){
   #aboutimg{
     max-height: 350px;
   }
