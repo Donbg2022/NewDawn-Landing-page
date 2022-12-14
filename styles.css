@@ -92,7 +92,7 @@ body{
     
   }
   #purpimg{
-    width: 98%;
+    width: 97vw;
   }
   #learnbutton{
     position: absolute;
@@ -225,6 +225,14 @@ margin-left: 5%;
     max-width: 100%;
     margin-left: 1em;
     margin-right: 2em;
+  }
+}
+@media all and (max-width: 500px){
+  #aboutimg{
+    width: 80vw;
+  }
+  #statement{
+    font-size: large;
   }
 }
 /*end about us*/
