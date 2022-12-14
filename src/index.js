@@ -104,13 +104,19 @@ window.addEventListener('resize', (e) => {
 })
 
 const newDawnMainText = document.querySelector('.imgtext')
-window.addEventListener('resize', () => {
+
+const mainText = () => {
   if(window.innerWidth < 612){
     newDawnMainText.innerText = 'New Dawn'
 }else{
   newDawnMainText.innerText = 'New Dawn Cleaning'
 
 }
-
 }
-)
+
+window.addEventListener('resize', mainText)
+window.addEventListener('DOMContentLoaded', mainText)
+
+
+
+
