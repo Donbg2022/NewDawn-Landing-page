@@ -4,7 +4,7 @@ const linkId = document.querySelector('.mobilelinkid')
 const responsiveNav = document.querySelector('.responsivenav')
 burger.addEventListener('click', function(e){
   if(getComputedStyle(responsiveNav).display === 'none'){
-  responsiveNav.style.display = 'block'
+  responsiveNav.style.display = 'flex'
 }else{
   responsiveNav.style.display = 'none'
 }

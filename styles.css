@@ -54,9 +54,15 @@
  
 }
 .responsivenav{
-  text-align: center;
   display: none;
-  margin-bottom: 20px;
+  flex-direction: column;
+}
+.responsivenav a p{
+  margin: .5rem 30px;
+  padding: 0;
+}
+.responsivenav a:last-of-type{
+  margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 820px){
