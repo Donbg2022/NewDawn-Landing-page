@@ -56,10 +56,12 @@
 .responsivenav{
   display: none;
   flex-direction: column;
+  animation: 1s ease-in ;
 }
 .responsivenav a p{
   margin: .5rem 30px;
   padding: 0;
+  
 }
 .responsivenav a:last-of-type{
   margin-bottom: 2rem;
@@ -147,15 +149,29 @@ body{
   } 
   @media screen and (max-width: 475px){
   #h1img{
-  top: 20%;
+  top: 30%;
   font-size: large;
   }
   #learnbutton{
     display: none;
   }
   #h3img{
-    top: 50%;
+    top: 55%;
     max-width: 45%;
+  }
+}
+@media screen and (max-width: 330px){
+  #h1img{
+  top: 25%;
+  font-size: medium;
+  }
+  #learnbutton{
+    display: none;
+  }
+  #h3img{
+    top: 55%;
+    max-width: 45%;
+    font-size: small;
   }
 }
   /*end clearly clean main img and learnmore button*/
@@ -219,6 +235,7 @@ margin-left: 5%;
 @media all and (max-width: 1000px){
   #aboutimg{
     max-height: 350px;
+    margin: 0;
   }
   .about{
     display: block;
@@ -236,6 +253,11 @@ margin-left: 5%;
   }
   #statement{
     font-size: large;
+  }
+}
+@media screen and (max-width: 330px){
+  #whoweare{
+    padding-bottom: 1rem;
   }
 }
 /*end about us*/
@@ -259,10 +281,12 @@ margin-left: 5%;
 }
 #serviceunderline{
   border-bottom: 1px solid #D3D3D3;
-  margin: 0 20% 100px 20%;
+  margin: 0 20% 50px 20%;
 }
 /*end our services*/ 
-
+/* @media screen and (max-width: 330) {
+  
+} */
 
 
 
