@@ -34,8 +34,8 @@ oneTime.addEventListener('mouseout', function(){
 
 //weekly clean animation
 weekly.addEventListener('mouseover', function(){
-  weekly.style.backgroundColor = '#F5F5F5'
-  paragraph2.style.backgroundColor = "#F5F5F5"
+  weekly.style.backgroundColor = "rgba(230,215,255,.3)"
+  paragraph2.style.backgroundColor = "rgba(230,215,255,.3)"
   weeklyHeader.style.fontSize = 'x-large'
 })
 weekly.addEventListener('mouseout', function(){
@@ -47,8 +47,8 @@ weekly.addEventListener('mouseout', function(){
 
 //monthly clean animation
 monthly.addEventListener('mouseover', function(){
-  monthly.style.backgroundColor = '#F5F5F5'
-  paragraph3.style.backgroundColor = "#F5F5F5"
+  monthly.style.backgroundColor = "rgba(230,215,255,.3)"
+  paragraph3.style.backgroundColor = "rgba(230,215,255,.3)"
   monthlyHeader.style.fontSize = 'x-large'
 
 })
@@ -61,8 +61,8 @@ monthly.addEventListener('mouseout', function(){
 
 //move in clean animation
 moveIn.addEventListener('mouseover', function(){
-  moveIn.style.backgroundColor = '#F5F5F5'
-  paragraph4.style.backgroundColor = "#F5F5F5"
+  moveIn.style.backgroundColor = "rgba(230,215,255,.3)"
+  paragraph4.style.backgroundColor = "rgba(230,215,255,.3)"
   moveInHeader.style.fontSize = 'x-large'
 
 })
