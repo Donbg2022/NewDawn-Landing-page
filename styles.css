@@ -275,6 +275,12 @@ margin-left: 5%;
   padding-bottom: 30px;
   color: grey;
 }
+.serviceheaders{
+  padding-top: 10px;
+}
+.serviceText{
+  padding-bottom: 20px;
+}
 #whatwedo{
   margin-bottom: 5%;
   color: #32064a;
@@ -419,15 +425,16 @@ a:link {
   display: flex;
   margin-bottom: 300px;
   flex-wrap: wrap;
+
 }
 #contactimg{
-  margin-left: 200px;
+  margin: auto;
   width: 600px;
   
 }
 .flexcontainer{
   flex-direction: column;
-  margin-left: 200px;
+  margin: auto;
 }
 #contactus{
   font-size: medium;
@@ -447,21 +454,22 @@ section.contactcontent p{
   color: grey;
   
 }
-@media all and (max-width: 1000px){
-  #contactimg{
-    /* margin-left: 50px; */
-    margin-left: auto;
-    margin-right: auto;
+
+
+@media all and (max-width: 950px){
+  .contactcontent{
+    flex-direction: column;
   }
 }
-@media screen and (max-width: 475px){
+
+@media screen and (max-width: 600px){
   #contactimg{
-    min-width: 300px;
+    width: 100%;
     }
     .flexcontainer{
-      margin-left: auto;
-      margin-right: auto;
+      margin: auto;
     }
+    
   
 }
 
