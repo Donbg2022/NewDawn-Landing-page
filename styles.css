@@ -6,6 +6,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 /*navbar styling*/
 .nav{
   display: flex;  
@@ -19,6 +23,14 @@
   padding: 35px;
   color: grey;
 }
+.linkid:hover{
+  cursor: pointer;
+  color: rgba(128, 128, 128, 0.477);
+}
+.linkid:active{
+  color: #310872;
+}
+
 .companylink{
   margin-left: 30px;
   font-size: large;
@@ -28,10 +40,25 @@
 #clearly{
   color: #32064a;
 }
+#clearly:hover{
+  color: #390d66;
+}
+
+#clearly:active{
+  color: #41037863;
+}
 .contactus{
   margin-right: 30px;
   background-color: #32064a;
   padding: 12px;
+}
+.contactus:hover{
+  background-color: #390d66;
+}
+
+.contactus:active{
+  background-color: #41037863;
+
 }
 #navbutton{
   color: white;
@@ -109,7 +136,12 @@ body{
     font-weight: 100;
     color: #ffffff;
   }
-  
+  #learnbutton:hover{
+    background-color: #390d66;
+  }
+  #learnbutton:active{
+    background-color: #41037863;
+  }
   .imgtext{
     position: absolute;
     left: 50%;
